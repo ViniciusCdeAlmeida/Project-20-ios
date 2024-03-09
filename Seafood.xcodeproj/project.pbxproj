@@ -16,6 +16,7 @@
 		3A238DA52B9CA3E300CFE3FB /* SeafoodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A238DA42B9CA3E300CFE3FB /* SeafoodTests.swift */; };
 		3A238DAF2B9CA3E300CFE3FB /* SeafoodUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A238DAE2B9CA3E300CFE3FB /* SeafoodUITests.swift */; };
 		3A238DB12B9CA3E300CFE3FB /* SeafoodUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A238DB02B9CA3E300CFE3FB /* SeafoodUITestsLaunchTests.swift */; };
+		3A238DBE2B9CA3F000CFE3FB /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 3A238DBD2B9CA3F000CFE3FB /* Inceptionv3.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		3A238DAA2B9CA3E300CFE3FB /* SeafoodUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeafoodUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A238DAE2B9CA3E300CFE3FB /* SeafoodUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeafoodUITests.swift; sourceTree = "<group>"; };
 		3A238DB02B9CA3E300CFE3FB /* SeafoodUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeafoodUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3A238DBD2B9CA3F000CFE3FB /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				3A238D962B9CA3E200CFE3FB /* Assets.xcassets */,
 				3A238D982B9CA3E200CFE3FB /* LaunchScreen.storyboard */,
 				3A238D9B2B9CA3E200CFE3FB /* Info.plist */,
+				3A238DBD2B9CA3F000CFE3FB /* Inceptionv3.mlmodel */,
 			);
 			path = Seafood;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A238D922B9CA3E100CFE3FB /* ViewController.swift in Sources */,
+				3A238DBE2B9CA3F000CFE3FB /* Inceptionv3.mlmodel in Sources */,
 				3A238D8E2B9CA3E100CFE3FB /* AppDelegate.swift in Sources */,
 				3A238D902B9CA3E100CFE3FB /* SceneDelegate.swift in Sources */,
 			);
